@@ -1,3 +1,14 @@
+class CfgPatches
+{
+    class YOURMODNAME
+    {
+        units[] = {};
+        weapons[] = {};
+        requiredVersion = 0.1;
+        requiredAddons[] = {"DZ_Data", "DZ_Scripts"};
+    };
+};
+
 class CfgSoundShaders
 {
     class baseCharacter_SoundShader;
