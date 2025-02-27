@@ -10,6 +10,7 @@
 ## Step 2: Download `AmbientHandler.c`
 
 1. **Download `AmbientHandler.c`:** Get the `AmbientHandler.c` file for further configuration.
+2. **Set Map-Specific Sounds:** You can now also configure map-specific sounds directly in `AmbientHandler.c`.
 
 ## Step 3: Register Your Sounds
 
