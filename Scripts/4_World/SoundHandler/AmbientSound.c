@@ -15,6 +15,10 @@ modded class AmbientHandler
             m_AmbientAreas.Insert(new AmbientArea("Tisy", "1259 0 14747", "2506 0 13885", AmbientTimeOfDay.BOTH, {"DS_AmbientMusic_07_SoundSet"}));
             m_AmbientAreas.Insert(new AmbientArea("NWAF", "3145 0 11857", "5290 0 9438", AmbientTimeOfDay.BOTH, {"DS_AmbientMusic_08_SoundSet", "DS_AmbientMusic_10_SoundSet"}));
         }
+        else if (DSSCoreStatics.GetWorldName() == "sakhal")
+        {
+            m_AmbientAreas.Insert(new AmbientArea("NWAF", "105 0 6405", "9090 0 0", AmbientTimeOfDay.BOTH, {"DS_AmbientMusic_17_SoundSet", "DS_AmbientMusic_07_SoundSet", "DS_AmbientMusic_08_SoundSet", "DS_AmbientMusic_10_SoundSet"}));
+        }
 
         //Global sounds
         ref array<string> daySounds = {"Test_SoundSet"};
